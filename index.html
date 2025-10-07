@@ -5,27 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fuellytics</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+          integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 
 <body style="background: whitesmoke;">
 <div class="pt-5">
     <div class="row pb-5">
         <div class="col-12 text-center">
-            Fuellytics
+            <h1>Fuellytics</h1>
         </div>
     </div>
 
-    <div class="row px-5" id="infos">
+    <div class="d-flex px-5" style="gap: 10px;">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Listagens</h5>
+                <p class="card-text">
+                    Listagem de items cadastrado no sistema
+                </p>
+                <div class="d-flex" style="gap:5px; flex-wrap: wrap;">
+                    <a href="usuarios.html" class="btn btn-primary d-flex">
+                        Usuários <i class="fa fa-users" style="margin-left: 10px; line-height: inherit;"></i>
+                    </a>
+                    <a href="marcas.html" class="btn btn-primary d-flex">
+                        Marcas <i class="fa fa-cube" style="margin-left: 10px; line-height: inherit;"></i>
+                    </a>
+                    <a href="modelos.html" class="btn btn-primary d-flex">
+                        Modelos <i class="fa fa-cubes" style="margin-left: 10px; line-height: inherit;"></i>
+                    </a>
+                    <a href="bombas.html" class="btn btn-primary d-flex">
+                        Bombas <i class="fa fa-circle-o" style="margin-left: 10px; line-height: inherit;"></i>
+                    </a>
+                    <a href="testes.html" class="btn btn-primary d-flex">
+                        Testes <i class="fa fa-edit" style="margin-left: 10px; line-height: inherit;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
 
     </div>
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </body>
