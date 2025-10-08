@@ -22,6 +22,7 @@
 
     <!-- Custom styles for this page -->
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -33,10 +34,9 @@
 
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-            <div class="sidebar-brand-icon rotate-n-15">
-                <i class="fas fa-laugh-wink"></i>
+            <div class="sidebar-brand-icon">
+                <img src="img/logo-rodape.png" alt="logo" style="height: 57px;">
             </div>
-            <div class="sidebar-brand-text mx-3">Fuellystics</div>
         </a>
 
         <!-- Divider -->
@@ -242,8 +242,9 @@
                                     <th>Pressão</th>
                                     <th>Corrente</th>
                                     <th>Emissão ruído</th>
-                                    <th>Data do teste</th>
                                     <th>Temperatura média</th>
+                                    <th>Data do teste</th>
+                                    <th>Situação</th>
                                     <th>Ações</th>
                                 </tr>
                                 </thead>
@@ -269,6 +270,11 @@
                                     </td>
                                     <td>
                                         08/07/2025
+                                    </td>
+                                    <td>
+                                        <div class="badge badge-success">
+                                            <i class="fa fa-check mx-1"></i>Aprovado
+                                        </div>
                                     </td>
                                     <td>
                                         <a href="marca.html" class="btn btn-sm btn-success">
@@ -299,6 +305,44 @@
                                         10/07/2025
                                     </td>
                                     <td>
+                                        <div class="badge badge-danger">
+                                            <i class="fa fa-times mx-1"></i>Reprovado
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <a href="marca.html" class="btn btn-sm btn-success">
+                                            <i class="fa fa-edit"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        4.2L/h
+                                    </td>
+                                    <td>
+                                        27psi
+                                    </td>
+                                    <td>
+                                        2.6A
+                                    </td>
+                                    <td>
+                                        68db
+                                    </td>
+                                    <td>
+                                        35ºC
+                                    </td>
+                                    <td>
+                                        10/07/2025
+                                    </td>
+                                    <td>
+                                        <div class="badge badge-warning">
+                                            <i class="fa fa-clock mx-1"></i>Aguardando
+                                        </div>
+                                    </td>
+                                    <td>
                                         <a href="marca.html" class="btn btn-sm btn-success">
                                             <i class="fa fa-edit"></i>
                                         </a>
@@ -310,7 +354,7 @@
                         <div class="row">
                             <div class="col-sm-12 col-md-5">
                                 <div class="dataTables_info">
-                                    Mostrando 1 ao 5 de 5 itens
+                                    Mostrando 1 ao 3 de 3 itens
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-7">
